@@ -3,7 +3,7 @@ import React from "react";
 
 export default function MarqueeText({ text = "RAYAN CHAMBET - RAYAN CHAMBET - RAYAN CHAMBET", speed =480 }) {
   return (
-    <div className="overflow-hidden whitespace-nowrap absolute z-0">
+    <div className="overflow-hidden w-full  whitespace-nowrap absolute top- z-0">
       <div
         className="inline-block animate-marquee"
         style={{

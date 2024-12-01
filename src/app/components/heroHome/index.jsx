@@ -10,8 +10,10 @@ export default function HeroHome() {
         <p className="text-center absolute end-1.5">
         AN INTERNATIONAL PRODUCT MANAGER & SOFTWARE ENGINEER BASED IN PARIS
       </p>
+      <button className="text-green text-center absolute end-1.5">sddsgf</button>
       </div>
      <MarqueeText />
+     <button>sddsgf</button>
     </section>
   );
 }
