@@ -38,7 +38,7 @@ export default function HeroImg({ src, alt }) {
 
   return (
     <div
-      className="relative w-full h-fit rounded-[12px] overflow-visible"
+      className="relative z-2 w-full h-fit rounded-[12px] overflow-visible z-10"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleLeaveOrEnd}
       onTouchStart={() =>
