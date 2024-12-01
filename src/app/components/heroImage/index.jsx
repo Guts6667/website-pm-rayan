@@ -1,40 +1,48 @@
 "use client";
 import React, { useState } from "react";
-import Image from "next/image";
 
 export default function HeroImg({ src, alt }) {
   const [style, setStyle] = useState({
     transform: "rotate(0deg) translate(0px, 0px)",
   });
 
-  const handleMouseMove = (e) => {
-    const { clientX, clientY, currentTarget } = e;
-    const { left, top, width, height } = currentTarget.getBoundingClientRect();
+  const handleMove = (x, y, element) => {
+    const { left, top, width, height } = element.getBoundingClientRect();
 
-    // Increased sensitivity for tilt and movement
-    const xTilt = ((clientX - left) / width - 0.5) * 60; // Increased tilt sensitivity
-    const yTilt = ((clientY - top) / height - 0.5) * -60; // Increased inverted Y tilt sensitivity
-    const xMove = ((clientX - left) / width - 0.5) * 60; // Increased horizontal movement
-    const yMove = ((clientY - top) / height - 0.5) * 60; // Increased vertical movement
+    const xTilt = ((x - left) / width - 0.5) * 30; // Tilt sensitivity
+    const yTilt = ((y - top) / height - 0.5) * -30; // Inverted Y tilt sensitivity
+    const xMove = ((x - left) / width - 0.5) * 25; // Horizontal movement
+    const yMove = ((y - top) / height - 0.5) * 25; // Vertical movement
 
     setStyle({
-      transform: `rotate(${xTilt}deg) translate(${xMove}px, ${yMove}px)`, // Combine tilt and movement
-      transition: "transform 0.1s ease-in-out", // Smooth movement
+      transform: `rotate(${xTilt}deg) translate(${xMove}px, ${yMove}px)`,
+      transition: "transform 0.1s ease-in-out",
     });
   };
 
-  const handleMouseLeave = () => {
+  const handleMouseMove = (e) => {
+    handleMove(e.clientX, e.clientY, e.currentTarget);
+  };
+
+  const handleTouchMove = (e) => {
+    const touch = e.touches[0];
+    handleMove(touch.clientX, touch.clientY, e.currentTarget);
+  };
+
+  const handleLeaveOrEnd = () => {
     setStyle({
-      transform: "rotate(0deg) translate(0px, 0px)", // Reset tilt and movement
-      transition: "transform 0.6s ease", // Smooth reset
+      transform: "rotate(0deg) translate(0px, 0px)",
+      transition: "transform 0.5s ease",
     });
   };
 
   return (
     <div
-      className="relative "
+      className="relative w-full h-fit rounded-[12px] overflow-visible"
       onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave}
+      onMouseLeave={handleLeaveOrEnd}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleLeaveOrEnd}
       style={style}
     >
       <img
@@ -42,7 +50,6 @@ export default function HeroImg({ src, alt }) {
         src={src}
         alt={alt}
       />
-      
     </div>
   );
 }
