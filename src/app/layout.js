@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import CustomCursor from "./components/customCursor";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
       <body 
         className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden `}
       >
+        <CustomCursor />
         {children}
       </body>
     </html>
