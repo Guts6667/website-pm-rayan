@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 export default function HeroImg({ src, alt }) {
   const [style, setStyle] = useState({
-    transform: "rotate(0deg) translate(0px, 0px)",
+    transform: "rotate(0deg) translate(0px, 0px) scale(1)",
   });
 
   const handleMove = (x, y, element) => {
@@ -15,7 +15,7 @@ export default function HeroImg({ src, alt }) {
     const yMove = ((y - top) / height - 0.5) * 25; // Vertical movement
 
     setStyle({
-      transform: `rotate(${xTilt}deg) translate(${xMove}px, ${yMove}px)`,
+      transform: `rotate(${xTilt}deg) translate(${xMove}px, ${yMove}px) scale(0.9)`, // Combine tilt, movement, and scale
       transition: "transform 0.1s ease-in-out",
     });
   };
@@ -31,7 +31,7 @@ export default function HeroImg({ src, alt }) {
 
   const handleLeaveOrEnd = () => {
     setStyle({
-      transform: "rotate(0deg) translate(0px, 0px)",
+      transform: "rotate(0deg) translate(0px, 0px) scale(1)",
       transition: "transform 0.5s ease",
     });
   };
@@ -41,6 +41,13 @@ export default function HeroImg({ src, alt }) {
       className="relative w-full h-fit rounded-[12px] overflow-visible"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleLeaveOrEnd}
+      onTouchStart={() =>
+        setStyle((prevStyle) => ({
+          ...prevStyle,
+          transform: `${prevStyle.transform} scale(0.9)`,
+          transition: "transform 0.1s ease-in-out",
+        }))
+      }
       onTouchMove={handleTouchMove}
       onTouchEnd={handleLeaveOrEnd}
       style={style}
