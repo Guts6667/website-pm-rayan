@@ -32,7 +32,7 @@ export default function HeroImg({ src, alt }) {
 
   return (
     <div
-      className="relative w-full h-full rounded-[12px] overflow-visible"
+      className="relative "
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       style={style}
