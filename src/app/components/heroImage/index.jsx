@@ -25,7 +25,7 @@ export default function HeroImg({ src, alt }) {
 
   const handleMouseLeave = () => {
     setStyle({
-    //   transform: "rotate(0deg) translate(0px, 0px)", // Reset tilt and movement
+      transform: "rotate(0deg) translate(0px, 0px)", // Reset tilt and movement
       transition: "transform 0.6s ease", // Smooth reset
     });
   };
