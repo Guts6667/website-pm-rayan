@@ -1,8 +1,8 @@
 
 import { setRequestLocale } from "next-intl/server";
-import HeroHome from "../components/(home)/HeroHome";
 import { useTranslations } from "next-intl";
 import { use } from "react";
+import Hero from "../components/Home/Hero";
 
 export default function Home({ params }) {
   const { locale } = use(params);
@@ -11,7 +11,7 @@ export default function Home({ params }) {
 
   return (
     <div className={""}>
-      <HeroHome />
+      <Hero />
     </div>
   );
 }

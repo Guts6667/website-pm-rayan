@@ -6,7 +6,7 @@ import { useTheme } from "@/utils/themeContext";
 import MarqueeText from "../../MarqueeText";
 
 
-export default function HeroHome( ) {
+export default function Hero( ) {
   const t = useTranslations("Homepage");
   const theme = useTheme();
 
