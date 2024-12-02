@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import HeroImg from "../heroImage";
-import MarqueeText from "../../MarqueeText";
 import { useTranslations } from "next-intl";
 import { useTheme } from "@/utils/themeContext";
+import MarqueeText from "../../MarqueeText";
 
 export default function HeroHome( ) {
   const t = useTranslations("Homepage");
