@@ -1,9 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { useTheme } from "@/utils/themeContext";
+
 export default function CustomCursor() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
-  const theme = useTheme();
 
   useEffect(() => {
     const handleMouseMove = (e) => {

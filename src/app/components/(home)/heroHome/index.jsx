@@ -3,7 +3,7 @@ import React from "react";
 import HeroImg from "../heroImage";
 import { useTranslations } from "next-intl";
 import { useTheme } from "@/utils/themeContext";
-import MarqueeText from "../../MarqueeText";
+import MarqueeText from "../../MarqueeText/index.jsx";
 
 export default function HeroHome( ) {
   const t = useTranslations("Homepage");
