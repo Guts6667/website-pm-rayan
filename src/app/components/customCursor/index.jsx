@@ -25,8 +25,8 @@ export default function CustomCursor() {
         top: position.y,
         left: position.x,
         transform: "translate(-50%, -50%)",
-        width: "25px", 
-        height: "25px",
+        width: "30px", 
+        height: "30px",
         borderRadius: "50%",
         mixBlendMode: "difference",
         pointerEvents: "none", // Prevent blocking other interactions

@@ -8,7 +8,7 @@ const LangSwitch = ({ language }) => {
 
 
   return (
-    <div>
+    <div className="flex flex-1 gap-[6px] justify-end text-sm">
       {language == 'en' ? (
         <Link href="/fr"
         locale="fr"

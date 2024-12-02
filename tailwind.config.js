@@ -8,6 +8,7 @@ module.exports = {
     "**/*.html",
   ],
   darkMode: "selector",
+  
   theme: {
     extend: {
       colors: {
@@ -25,9 +26,15 @@ module.exports = {
         yellow: "#FFB800",
         black: "#141310",
         white: "#FCF6E6",
+        orange: "#FB6502",
         "white-transparent": "rgb(255, 246, 224, 0.2)",
         "black-transparent": "rgb(20, 19, 16, 0.4)",
       },
+      backgroundColor: {
+        black: "#141310",
+        white: "#FCF6E6",
+      },
+
       animation: {
         marquee: "marquee linear infinite",
         cover: "cover 1s forwards  ease-in-out",

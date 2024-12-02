@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import LangSwitch from "../LangSwitch";
 import { usePathname } from "next/navigation";
 import ThemeToggleButton from "../ThemeButton";
+import Link from "next/link";
 
 const StickyMenu = () => {
   const [language, setLanguage] = useState(undefined);
@@ -21,8 +22,23 @@ const StickyMenu = () => {
 
   return (
     <header className="flex gap-[6px] items-center px-[24px] lg:px-[48px] py-[24px] sticky top-0 self-center w-full ">
+      <div className="flex flex-1 gap-[6px]">
+        <h1 className="max-lg:hidden text-2xl">RAYAN CHAMBET</h1>
+        <ThemeToggleButton />
+      </div>
+
+      <div className="flex flex-col gap-[6px] items-center align-center flex-2 active:scale-90 duration-600 ease-in-out hover:scale-105 transition-all ">
+        <span className="w-[180px] h-[6px] rounded-[12px] mix-blend-difference bg-black dark:bg-white "></span>
+        <span className="text-sm">MENU</span>
+      </div>
+      <div className="flex flex-1 gap-[12px] items-center">
       <LangSwitch language={language} />
-      <ThemeToggleButton />
+        <Link href="/contact" className="max-lg:hidden hover:text-orange dark:hover:text-yellow text-2xl transition-all duration-300">
+        CONTACT
+        </Link>
+        
+      </div >
+      
     </header>
   );
 };
