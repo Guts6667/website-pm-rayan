@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-export default function MarqueeText({ text = "RAYAN CHAMBET - RAYAN CHAMBET - RAYAN CHAMBET", speed =480 }) {
+export default function InfiniteText({ text = "RAYAN CHAMBET - RAYAN CHAMBET - RAYAN CHAMBET", speed =480 }) {
   return (
     <div className="overflow-hidden w-full  whitespace-nowrap absolute top- z-0">
       <div

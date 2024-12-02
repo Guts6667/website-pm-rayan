@@ -5,7 +5,8 @@ import { routing } from "../../../i18n/routing";
 import StickyMenu from "../components/(nav)/StickyMenu";
 import "./globals.css";
 import { ThemeProvider } from "../../utils/themeContext";
-import CustomCursor from "../components/CustomCursor";
+import Cursor from "../components/Cursor";
+
 
 export default async function LocaleLayout({ children, params }) {
   const { locale } = await params;
@@ -22,7 +23,7 @@ export default async function LocaleLayout({ children, params }) {
       <body className="light:bg-tertiary dark:bg-primary">
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>
-            <CustomCursor />
+            <Cursor />
             <StickyMenu />
             {children}
           </ThemeProvider>

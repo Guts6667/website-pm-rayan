@@ -3,7 +3,7 @@ import React from "react";
 import HeroImg from "../HeroImage";
 import { useTranslations } from "next-intl";
 import { useTheme } from "@/utils/themeContext";
-import MarqueeText from "../MarqueeText";
+import InfiniteText from "../InfiniteText";
 
 
 export default function Hero( ) {
@@ -16,7 +16,7 @@ export default function Hero( ) {
         <HeroImg src="/img/picture-rayan.png" alt="Rayan" />
         <p className="text-primary light:text-secondary text-center absolute end-1.5">{t("heroText")}</p>
       </div>
-      <MarqueeText />
+    <InfiniteText />
     </section>
   );
 }

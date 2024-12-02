@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-export default function CustomCursor() {
+export default function Cursor() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
