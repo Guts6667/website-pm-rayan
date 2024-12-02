@@ -1,6 +1,6 @@
 
 import { setRequestLocale } from "next-intl/server";
-import HeroHome from "../components/(home)/HeroHome";
+import HeroHome from "../Components/(home)/HeroHome";
 import { useTranslations } from "next-intl";
 import { use } from "react";
 
