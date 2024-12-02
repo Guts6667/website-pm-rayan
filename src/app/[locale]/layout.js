@@ -2,10 +2,10 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages} from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "../../../i18n/routing";
-import StickyMenu from "../Components/(nav)/StickyMenu";
+import StickyMenu from "../components/(nav)/StickyMenu";
 import "./globals.css";
 import { ThemeProvider } from "../../utils/themeContext";
-import CustomCursor from "../Components/CustomCursor";
+import CustomCursor from "../components/CustomCursor";
 
 export default async function LocaleLayout({ children, params }) {
   const { locale } = await params;
