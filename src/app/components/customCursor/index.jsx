@@ -1,8 +1,9 @@
 "use client";
 import React, { useEffect, useState } from "react";
-
+import { useTheme } from "@/utils/themeContext";
 export default function CustomCursor() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
+  const theme = useTheme();
 
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -28,7 +29,6 @@ export default function CustomCursor() {
         height: "25px",
         borderRadius: "50%",
         mixBlendMode: "difference",
-        backgroundColor: "#FB6502",
         pointerEvents: "none", // Prevent blocking other interactions
         zIndex: 1000,
       }}

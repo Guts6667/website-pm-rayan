@@ -15,7 +15,7 @@ export default function MarqueeText({ text = "RAYAN CHAMBET - RAYAN CHAMBET - RA
           .map((item, index) => (
             <span
               key={index}
-              className="text-[40vw] text-tertiary_transparent xl:text-[15vw]  font-semibold mx-4"
+              className="text-[40vw] light:text-black-transparent dark:text-white-transparent opacity-40 xl:text-[15vw]  font-semibold mx-4"
             >
               {item}
             </span>
