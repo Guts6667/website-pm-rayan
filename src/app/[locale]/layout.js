@@ -20,7 +20,7 @@ export default async function LocaleLayout({ children, params }) {
 
   return (
     <html lang={locale}>
-      <meta charSet="utf-8" name="light:bg-white dark:bg-black" />
+      <meta charSet="utf-8" name="theme-color" content="light:bg-white dark:bg-black" />
       <body className="light:bg-white dark:bg-black">
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>
