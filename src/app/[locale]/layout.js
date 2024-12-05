@@ -28,23 +28,9 @@ export default async function LocaleLayout({ children, params }) {
           content="#141310"
           media="(prefers-color-scheme: dark)"
         />
-        <script>
-          {`
-            const updateMetaThemeColor = () => {
-              const themeColorMetaTag = document.querySelector('meta[name="theme-color"]');
-              if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                themeColorMetaTag.setAttribute('content', '#141310');
-              } else {
-                themeColorMetaTag.setAttribute('content', '#FCF6E6');
-              }
-            };
-
-            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateMetaThemeColor);
-            updateMetaThemeColor();
-          `}
-        </script>
+       
       </head>
-      <body className="bg-white dark:bg-black">
+      <body className="light:bg-white dark:bg-black">
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>
             <Cursor />
