@@ -24,7 +24,7 @@ export default async function LocaleLayout({ children, params }) {
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>
             <Cursor />
-            <StickyMenu />
+            <StickyMenu  />
             {children}
           </ThemeProvider>
         </NextIntlClientProvider>

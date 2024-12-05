@@ -7,7 +7,7 @@ module.exports = {
     "./src/layouts/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   darkMode: "selector",
-  
+
   theme: {
     extend: {
       colors: {
@@ -38,6 +38,9 @@ module.exports = {
         marquee: "marquee linear infinite",
         cover: "cover 1s forwards  ease-in-out",
         uncover: "uncover 1s forwards ease-in-out",
+        slideDown: "slideDown 0.6s forwards ease-in-out",
+        slideUp: "slideUp 0.6s forwards  ease-in-out",
+        fadeIn: "fadeIn 1.6s forwards ease-in-out ",
       },
       keyframes: {
         marquee: {
@@ -51,6 +54,19 @@ module.exports = {
         uncover: {
           "0%": { transform: "translateY(-100%)" },
           "100%": { transform: "translateY(0)" },
+        },
+        slideDown: {
+          "0%": { transform: "translateY(-100%)", opacity: 0 },
+          "100%": { transform: "translateY(0)", opacity: 1 },
+        },
+        slideUp: {
+          "0%": { transform: "translateY(0)", opacity: 1 },
+          "100%": { transform: "translateY(-100%)", opacity: 0 },
+        },
+
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
         },
       },
     },

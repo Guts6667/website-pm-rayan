@@ -7,7 +7,7 @@ import InfiniteText from "../InfiniteText";
 
 
 export default function Hero( ) {
-  const t = useTranslations("Homepage");
+  const t = useTranslations("HomePage");
   const theme = useTheme();
 
   return (

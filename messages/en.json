@@ -1,6 +1,23 @@
 {
-    "Homepage": {
+    "Navigation": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact",
+        "menuAction": "Menu",
+        "closeAction": "Close"
+    },
+    "HomePage": {
         "heroText": "AN INTERNATIONAL PRODUCT MANAGER & SOFTWARE ENGINEER BASED IN PARIS",
         "test": "This is a test"
+    },
+    "AboutPage": {
+        "heroText": "ABOUT ME"
+    },
+    "ContactPage": {
+        "heroText": "CONTACT ME"
+    },
+    "ProjectsPage": {
+        "heroText": "PROJECTS"
     }
 }

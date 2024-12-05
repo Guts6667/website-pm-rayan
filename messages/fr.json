@@ -1,6 +1,23 @@
 {
-    "Homepage": {
+    "Navigation": {
+        "home": "Accueil",
+        "about": "À propos",
+        "projects": "Projets",
+        "contact": "Contact",
+        "menuAction": "Menu",
+        "closeAction": "Fermer"
+    },
+    "HomePage": {
         "heroText": "PRODUCT MANAGER INTERNATIONAL & INGÉNIEUR LOGICIEL BASÉ À PARIS",
         "test": "Ceci est un test"
+    },
+    "AboutPage": {
+        "heroText": "À PROPOS DE MOI"
+    },
+    "ContactPage": {
+        "heroText": "ME CONTACTER"
+    },
+    "ProjectsPage": {
+        "heroText": "PROJETS"
     }
 }
