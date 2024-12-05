@@ -1,12 +1,11 @@
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages} from "next-intl/server";
+import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "../../../i18n/routing";
 import StickyMenu from "../components/(nav)/StickyMenu";
 import "./globals.css";
 import { ThemeProvider } from "../../utils/themeContext";
 import Cursor from "../components/Cursor";
-
 
 export default async function LocaleLayout({ children, params }) {
   const { locale } = await params;
@@ -20,12 +19,22 @@ export default async function LocaleLayout({ children, params }) {
 
   return (
     <html lang={locale}>
-      <meta charSet="utf-8" name="theme-color" content="light:bg-white dark:bg-black" />
-      <body className="light:bg-white dark:bg-black">
+      <meta name="color-scheme" content="light dark" />
+      <meta
+        name="theme-color"
+        content="#FCF6E6"
+        media="(prefers-color-scheme: light)"
+      />
+      <meta
+        name="theme-color"
+        content="#141310"
+        media="(prefers-color-scheme: dark)"
+      />
+      <body className="bg-white dark:bg-black">
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>
             <Cursor />
-            <StickyMenu  />
+            <StickyMenu />
             {children}
           </ThemeProvider>
         </NextIntlClientProvider>
