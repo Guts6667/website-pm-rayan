@@ -1,23 +1,32 @@
 {
-    "Navigation": {
-        "home": "Accueil",
-        "about": "À propos",
-        "projects": "Projets",
-        "contact": "Contact",
-        "menuAction": "Menu",
-        "closeAction": "Fermer"
-    },
-    "HomePage": {
-        "heroText": "PRODUCT MANAGER INTERNATIONAL & INGÉNIEUR LOGICIEL BASÉ À PARIS",
-        "test": "Ceci est un test"
-    },
-    "AboutPage": {
-        "heroText": "À PROPOS DE MOI"
-    },
-    "ContactPage": {
-        "heroText": "ME CONTACTER"
-    },
-    "ProjectsPage": {
-        "heroText": "PROJETS"
-    }
+  "Navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact",
+    "menuAction": "Menu",
+    "closeAction": "Fermer"
+  },
+  "HomePage": {
+    "heroText": "PRODUCT MANAGER INTERNATIONAL & INGÉNIEUR LOGICIEL BASÉ À PARIS",
+    "test": "Ceci est un test",
+    "titleAbout": "À PROPOS",
+    "textAbout": "Je suis un ingénieur logiciel et chef de produit français avec plus de 4 ans d'expérience, spécialisé à la croisée des chemins entre une approche technique et centrée sur l'utilisateur. Mon parcours d'ingénieur et d'entrepreneur me permet de prendre des décisions rapidement et efficacement.",
+    "buttonAbout": "En savoir plus",
+    "titleProjects": "PROJETS",
+    "textProjects": "Découvrez mes projets passés et actuels, allant de projets personnels à des projets professionnels.",
+    "buttonProjects": "Voir les projets",
+    "titleContact": "CONTACT",
+    "textContact": "Vous avez une question ou vous souhaitez simplement discuter ? N'hésitez pas à me contacter.",
+    "buttonContact": "Me contacter"
+  },
+  "AboutPage": {
+    "heroText": "À PROPOS DE MOI"
+  },
+  "ContactPage": {
+    "heroText": "ME CONTACTER"
+  },
+  "ProjectsPage": {
+    "heroText": "PROJETS"
+  }
 }

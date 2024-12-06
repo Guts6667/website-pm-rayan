@@ -15,17 +15,23 @@ module.exports = {
           background: "#FCF6E6",
           text: "#141310",
           orange: "#FB6502",
+          blurry: "rgba(255, 251, 249, 0.3)",
         },
         dark: {
           background: "#141310",
           text: "#FCF6E6",
           yellow: "#FFB800",
+          blurry: "rgb(20, 19, 16, 0.4)",
+          
         },
         "dark-primary": "#FFB800",
         yellow: "#FFB800",
         black: "#141310",
         white: "#FCF6E6",
         orange: "#FB6502",
+        "dark-blurry": "rgba(20, 19, 16, 0.3)",
+        "light-blurry": "rgba(255, 251, 249, 0.3)",
+        
         "white-transparent": "rgb(255, 246, 224, 0.2)",
         "black-transparent": "rgb(20, 19, 16, 0.4)",
       },

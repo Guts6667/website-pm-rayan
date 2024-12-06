@@ -3,7 +3,7 @@ import { setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import { use } from "react";
 import Hero from "../components/(home)/Hero";
-import { BackgroundGradientAnimation } from "../components/BackgroundGradientAnimation";
+import HomeAbout from "../components/(home)/HomeAbout";
 
 export default function Home({ params }) {
   const { locale } = use(params);
@@ -13,7 +13,7 @@ export default function Home({ params }) {
   return (
     <div className={""}>
      <Hero />
-     <BackgroundGradientAnimation />
+     <HomeAbout t={t} />
     </div>
   );
 }
