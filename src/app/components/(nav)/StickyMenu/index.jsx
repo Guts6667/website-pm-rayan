@@ -28,7 +28,7 @@ const StickyMenu = () => {
   return (
     <>
       <header className="fixed z-[80] flex gap-[6px] items-center px-[24px] lg:px-[48px] py-[24px]  top-0 self-center w-full   ">
-        <div className="flex flex-1 gap-[6px]">
+        <div className="flex flex-1 gap-[12px]">
           <h1 className="max-lg:hidden text-2xl">RAYAN CHAMBET</h1>
           <ThemeToggleButton />
         </div>

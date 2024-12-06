@@ -42,9 +42,9 @@ module.exports = {
 
       animation: {
         marquee: "marquee linear infinite",
-        cover: "cover 1s forwards  ease-in-out",
-        uncover: "uncover 1s forwards ease-in-out",
-        slideDown: "slideDown 0.6s forwards ease-in-out",
+        cover: "cover 1s forwards  ease-in-out ",
+        uncover: "uncover 1s forwards ease-in-out ",
+        slideDown: "slideDown 0.6s forwards ease-in-out ",
         slideUp: "slideUp 0.6s forwards  ease-in-out",
         fadeIn: "fadeIn 1.6s forwards ease-in-out ",
         first: "moveVertical 30s ease infinite",
