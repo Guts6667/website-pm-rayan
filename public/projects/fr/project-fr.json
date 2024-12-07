@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "type": "type1",
+    "description": "Description du projet 1",
+    "image": "sciences-co.png",
+    "link": "projet1.html",
+    "tags": ["tag1", "tag2"],
+    "client": "client1",
+    "date": "2022-2024",
+    "services": ["service1", "service2"],
+    "budget": ">60k",
+    "overview": "Aperçu du projet 1",
+    "solution": "Solution du projet 1",
+    "impact": "Impact du projet 1"
+  },
+  {
+    "id": 2,
+    "type": "type2",
+    "description": "Description du projet 2",
+    "image": "mbuzz.png",
+    "link": "projet2.html",
+    "tags": ["tag1", "tag3"],
+    "client": "client2",
+    "date": "2021-2023",
+    "services": ["service2", "service3"],
+    "budget": "40k-60k",
+    "overview": "Aperçu du projet 2",
+    "solution": "Solution du projet 2",
+    "impact": "Impact du projet 2"
+  },
+  {
+    "id": 3,
+    "type": "type3",
+    "description": "Description du projet 3",
+    "image": "znojmo.png",
+    "link": "projet3.html",
+    "tags": ["tag2", "tag3"],
+    "client": "client3",
+    "date": "2020-2022",
+    "services": ["service1", "service3"],
+    "budget": "20k-40k",
+    "overview": "Aperçu du projet 3",
+    "solution": "Solution du projet 3",
+    "impact": "Impact du projet 3"
+  }
+]

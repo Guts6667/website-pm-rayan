@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { use } from "react";
 import Hero from "../components/(home)/Hero";
 import HomeAbout from "../components/(home)/HomeAbout";
+import HomeProjects from "../components/(home)/HomeProjects";
 
 export default function Home({ params }) {
   const { locale } = use(params);
@@ -11,9 +12,10 @@ export default function Home({ params }) {
   const t = useTranslations('HomePage');
 
   return (
-    <div className={""}>
+    <main className={"flex flex-col gap-[48px]"}>
      <Hero />
      <HomeAbout t={t} />
-    </div>
+     <HomeProjects />
+    </main>
   );
 }
