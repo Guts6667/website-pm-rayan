@@ -5,6 +5,7 @@ import { use } from "react";
 import Hero from "../components/(home)/Hero";
 import HomeAbout from "../components/(home)/HomeAbout";
 import HomeProjects from "../components/(home)/HomeProjects";
+import HomeSkills from "../components/(home)/HomeSkills";
 
 export default function Home({ params }) {
   const { locale } = use(params);
@@ -22,6 +23,7 @@ export default function Home({ params }) {
      <Hero />
      <HomeAbout t={t} />
      <HomeProjects locale={locale} content={sectionHeadContent}/>
+     <HomeSkills t={t} />
     </main>
   );
 }

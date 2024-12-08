@@ -3,7 +3,7 @@ import React from "react";
 
 export default function CardStack({ project, i }) {
   return (
-    <div className="cardContainer sticky top-0 h-[100vh] flex items-center justify-center ">
+    <div className="cardContainer sticky top-0 h-[100vh] flex items-center justify-center scroll-smooth ">
       <div
         style={{
         //   backgroundImage: `url(/img/${project.image})`,
@@ -11,7 +11,7 @@ export default function CardStack({ project, i }) {
         //     backgroundPosition: "center",
            top:`calc(-5vh + ${i * 25}px)`
         }}
-        className={"card group overflow-hidden flex flex-col relative h-[60vh] w-full lg:w-[60vw]  rounded-lg  origin-top "}
+        className={"card group overflow-hidden flex flex-col relative h-[60vh] xl:h-[70vh]  w-full lg:w-[60vw] xl:w-[70vw]  rounded-lg  origin-top "}
       >
         <img
         className="absolute w-full h-full rounded-lg object-cover group-hover:scale-105 transition-all duration-300 ease-in-out"
