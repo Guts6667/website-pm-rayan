@@ -35,7 +35,7 @@ export default function HomeSkills({t}) {
   ];
 
   return (
-    <section className="px-[24px] lg:px-[48px] flex flex-col items-center gap-[48px]">
+    <section className="px-[24px] lg:px-[48px] flex flex-col items-center gap-[48px] relative">
       <SectionHead
         title="Sets of Skills"
         tagline="Skills tailored to you needs"

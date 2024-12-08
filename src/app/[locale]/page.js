@@ -6,6 +6,7 @@ import Hero from "../components/(home)/Hero";
 import HomeAbout from "../components/(home)/HomeAbout";
 import HomeProjects from "../components/(home)/HomeProjects";
 import HomeSkills from "../components/(home)/HomeSkills";
+import HomeFollow from "../components/(home)/HomeFollow";
 
 export default function Home({ params }) {
   const { locale } = use(params);
@@ -24,6 +25,7 @@ export default function Home({ params }) {
      <HomeAbout t={t} />
      <HomeProjects locale={locale} content={sectionHeadContent}/>
      <HomeSkills t={t} />
+     <HomeFollow t={t} />
     </main>
   );
 }

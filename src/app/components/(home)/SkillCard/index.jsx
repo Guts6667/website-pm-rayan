@@ -1,16 +1,25 @@
-"use client"    
-import React from "react";
+"use client";
+import React, { useState, useEffect } from "react";
 
 export default function SkillCard({ title, skills, number, rotation, delay }) {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setScreenWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const isLargeScreen = screenWidth > 768;
+
   return (
     <div
       className={`flex flex-col w-full lg:flex-1 gap-[12px] lg:gap-[24px] p-[24px] bg-[#361601]/10 dark:bg-[#1B1915] rounded-[12px] sm:rotate-0 lg:animate-floating  hover:animate-scaleCard`}
       style={{
-        "--rotate": `${rotation}deg`,
-        // animationDelay: `${delay}s`,
+        "--rotate": isLargeScreen ? `${rotation}deg` : "0deg",
         transform: `translateY(0) rotate(var(--rotate))`,
+        animationDelay: `${delay}s`,
       }}
-
     >
       <h4 className="uppercase font-medium text-[20px]">{title}</h4>
       {skills.map((skill, index) => (
