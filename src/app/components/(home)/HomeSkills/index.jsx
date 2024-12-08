@@ -2,7 +2,7 @@ import React from "react";
 import SectionHead from "../SectionHead";
 import SkillCard from "../SkillCard";
 
-export default function HomeSkills() {
+export default function HomeSkills({t}) {
   const skills = [
     {
       title: "Strategy",

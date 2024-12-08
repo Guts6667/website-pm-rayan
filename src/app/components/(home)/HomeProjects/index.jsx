@@ -11,7 +11,7 @@ const projectCard = locale === "en" ? projectCardEn : projectCardFr;
   
   return (
     <section className=" px-[24px] lg:px-[48px] relative ">
-        <SectionHead style={"gap-12px"} title={content.title} tagline={content.tagline} link="/projects" buttonText={content.buttonText} />
+        <SectionHead style={""} title={content.title} tagline={content.tagline} link="/projects" buttonText={content.buttonText} />
     {/* <div>
     {projectCard.map((project, index) => (
         <Card key={index} project={project} />

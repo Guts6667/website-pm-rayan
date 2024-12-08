@@ -1,12 +1,12 @@
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { routing } from "../../../i18n/routing";
 import StickyMenu from "../components/(nav)/StickyMenu";
 import "./globals.css";
 import { ThemeProvider } from "../../utils/themeContext";
 import Cursor from "../components/Cursor";
 import { Montserrat } from "next/font/google";
+import { routing } from "@/i18n/routing";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -15,8 +15,8 @@ const montserrat = Montserrat({
   style: ["italic", "normal"],
 });
 
-export default async function LocaleLayout({ children, params }) {
-  const { locale } = await params;
+export default async function LocaleLayout({ children, params: { locale } }) {
+  // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale)) {
     notFound();
   }

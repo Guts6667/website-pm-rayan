@@ -1,9 +1,11 @@
 "use client";
+import { Link } from "@/i18n/routing";
 import React from "react";
 
 export default function CardStack({ project, i }) {
+
   return (
-    <div className="cardContainer sticky top-0 h-[100vh] flex items-center justify-center scroll-smooth ">
+    <Link className="cardContainer sticky top-0 h-[100vh] flex items-center justify-center scroll-smooth ">
       <div
         style={{
         //   backgroundImage: `url(/img/${project.image})`,
@@ -34,7 +36,7 @@ export default function CardStack({ project, i }) {
         </div>
         
       </div>
-    </div>
+    </Link>
   );
 }
 // display: flex;

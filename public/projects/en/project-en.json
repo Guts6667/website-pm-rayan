@@ -2,9 +2,9 @@
   {
     "id": 1,
     "type": "Web Application",
+    "title": "Project 1",
     "description": "Project 1 description",
     "image": "sciences-co.png",
-    "link": "project1.html",
     "tags": ["Product Mangement", "UX/UI Design"],
     "client": "client1",
     "date": "2022-2024",
@@ -17,9 +17,9 @@
   {
     "id": 2,
     "type": "Mobile Application",
+    "title": "Project 2",
     "description": "Project 2 description",
     "image": "saudiexcellence.png",
-    "link": "project2.html",
     "tags": ["tag1", "tag3"],
     "client": "client2",
     "date": "2021-2023",
@@ -32,9 +32,9 @@
   {
     "id": 3,
     "type": "Website",
+    "title": "Project 3",
     "description": "Project 3 description",
     "image": "mbuzz.png",
-    "link": "project3.html",
     "tags": ["tag2", "tag3"],
     "client": "client3",
     "date": "2020-2022",

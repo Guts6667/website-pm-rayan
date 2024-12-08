@@ -1,7 +1,8 @@
 
-import Link from "next/link";
+
 import React from "react";
 import { usePathname } from "next/navigation";
+import { Link } from "@/i18n/routing";
 
 export default function NavMenu({ language, isActive }) {
   const pathname = usePathname();
@@ -40,11 +41,11 @@ export default function NavMenu({ language, isActive }) {
         <li>
           <Link
             className={`hover:text-orange dark:hover:text-yellow transition-all duration-300 ${
-              pathname === "/work"
+              pathname === "/projects"
                 ? "line-through decoration-2 decoration-orange dark:decoration-yellow"
                 : "opacity-100 group-hover:opacity-50"
             }`}
-            href="/work"
+            href="/projects"
           >
             {language === "en" ? "PROJECTS" : "PROJETS"}
           </Link>

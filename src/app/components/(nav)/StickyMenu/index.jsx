@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 import LangSwitch from "../LangSwitch";
 import { usePathname } from "next/navigation";
 import ThemeToggleButton from "../ThemeButton";
-import Link from "next/link";
 import NavMenu from "../NavMenu";
+import { Link } from "@/i18n/routing";
 
 const StickyMenu = () => {
   const [language, setLanguage] = useState(undefined);

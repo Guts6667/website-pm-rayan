@@ -1,7 +1,6 @@
 "use client";
-
-import Link from "next/link";
-import React, { useEffect } from "react";
+import { Link } from "@/i18n/routing";
+import React from "react";
 
 
 const LangSwitch = ({ language }) => {
@@ -10,13 +9,13 @@ const LangSwitch = ({ language }) => {
   return (
     <div className="flex flex-1 gap-[6px] justify-end text-sm font-light">
       {language == 'en' ? (
-        <Link href="/fr"
+        <Link href="/"
         locale="fr"
         >
           FR
         </Link>
       ) : (
-        <Link href="/en"
+        <Link href="/"
         locale="en"
         >
           EN
