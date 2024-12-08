@@ -22,7 +22,6 @@ module.exports = {
           text: "#FCF6E6",
           yellow: "#FFB800",
           blurry: "rgb(20, 19, 16, 0.4)",
-          
         },
         "dark-primary": "#FFB800",
         yellow: "#FFB800",
@@ -31,7 +30,7 @@ module.exports = {
         orange: "#FB6502",
         "dark-blurry": "rgba(20, 19, 16, 0.3)",
         "light-blurry": "rgba(255, 251, 249, 0.3)",
-        
+
         "white-transparent": "rgb(255, 246, 224, 0.2)",
         "black-transparent": "rgb(20, 19, 16, 0.4)",
       },
@@ -52,6 +51,8 @@ module.exports = {
         third: "moveInCircle 40s linear infinite",
         fourth: "moveHorizontal 40s ease infinite",
         fifth: "moveInCircle 20s ease infinite",
+        floating: "floating 3s ease-in-out infinite",
+        scaleCard: "scaleCard 0.3s ease-in-out forwards",
       },
       keyframes: {
         marquee: {
@@ -111,7 +112,16 @@ module.exports = {
           "100%": {
             transform: "translateY(-50%)",
           },
-        }, 
+        },
+        floating: {
+          "0%": { transform: "translateY(0) rotate(var(--rotate))" },
+          "50%": { transform: "translateY(-10px) rotate(var(--rotate))" },
+          "100%": { transform: "translateY(0) rotate(var(--rotate))" },
+        },
+        scaleCard :{
+          "0%": { transform: "scale(1)" },
+          "100%": { transform: "scale(1.05)" },
+        }
       },
     },
   },
