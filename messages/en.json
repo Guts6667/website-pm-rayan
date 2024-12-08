@@ -13,9 +13,9 @@
         "titleAbout": "ABOUT",
         "textAbout": "I am a french  product manager & software engineer with  over 4 years of experience,  specializing at the crossroad of technical and user centric approach.  My engineering and entrepreneurial background allow me for quick and and efficient decision making.",
         "buttonAbout": "More about me",
-        "titleProjects": "PROJECTS",
-        "textProjects": "Discover my past and current projects, ranging from personal projects to professional projects.",
-        "buttonProjects": "View projects"
+        "titleProjects": "Case Studies",
+        "taglineProjects": "A peek into my work",
+        "buttonProjects": "All projects"
 
     },
     "AboutPage": {

@@ -1,11 +1,19 @@
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, setRequestLocale } from 'next-intl/server';
-import { notFound } from 'next/navigation';
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages, setRequestLocale } from "next-intl/server";
+import { notFound } from "next/navigation";
 import { routing } from "../../../i18n/routing";
 import StickyMenu from "../components/(nav)/StickyMenu";
 import "./globals.css";
 import { ThemeProvider } from "../../utils/themeContext";
-import Cursor from '../components/Cursor';
+import Cursor from "../components/Cursor";
+import { Montserrat } from "next/font/google";
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+  display: "swap",
+  style: ["italic", "normal"],
+});
 
 export default async function LocaleLayout({ children, params }) {
   const { locale } = await params;
@@ -28,9 +36,8 @@ export default async function LocaleLayout({ children, params }) {
           content="#141310"
           media="(prefers-color-scheme: dark)"
         />
-       
       </head>
-      <body className="light:bg-white dark:bg-black">
+      <body className={`${montserrat.className} light:bg-white dark:bg-black`}>
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>
             <Cursor />

@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "type": "type1",
+    "type": "Application Web",
     "description": "Description du projet 1",
     "image": "sciences-co.png",
     "link": "projet1.html",
-    "tags": ["tag1", "tag2"],
+    "tags": ["Product Mangement", "UX/UI Design"],
     "client": "client1",
     "date": "2022-2024",
     "services": ["service1", "service2"],
@@ -16,7 +16,7 @@
   },
   {
     "id": 2,
-    "type": "type2",
+    "type": "Application Mobile",
     "description": "Description du projet 2",
     "image": "mbuzz.png",
     "link": "projet2.html",
@@ -31,7 +31,7 @@
   },
   {
     "id": 3,
-    "type": "type3",
+    "type": "Site Web",
     "description": "Description du projet 3",
     "image": "znojmo.png",
     "link": "projet3.html",

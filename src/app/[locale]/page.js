@@ -10,12 +10,18 @@ export default function Home({ params }) {
   const { locale } = use(params);
   setRequestLocale(locale);
   const t = useTranslations('HomePage');
+  const sectionHeadContent = {
+    title: t("titleProjects"),
+    tagline: t("taglineProjects"),
+    buttonText: t("buttonProjects")
+  }
+
 
   return (
     <main className={"flex flex-col gap-[48px]"}>
      <Hero />
      <HomeAbout t={t} />
-     <HomeProjects />
+     <HomeProjects locale={locale} content={sectionHeadContent}/>
     </main>
   );
 }
