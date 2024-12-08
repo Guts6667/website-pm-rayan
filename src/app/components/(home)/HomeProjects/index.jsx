@@ -11,10 +11,12 @@ const projectCard = locale === "en" ? projectCardEn : projectCardFr;
   
   return (
     <section className=" px-[24px] lg:px-[48px] relative ">
-        <SectionHead style={"sticky top-[120px]"} title={content.title} tagline={content.tagline} link="/projects" buttonText={content.buttonText} />
-      {projectCard.map((project, index) => (
+        <SectionHead style={"sticky z-10 top-[96px] lg:top-[120px]"} title={content.title} tagline={content.tagline} link="/projects" buttonText={content.buttonText} />
+
+        {projectCard.map((project, index) => (
         <Card key={index} project={project} />
       ))}
+     
     </section>
   );
 }

@@ -10,13 +10,13 @@ export default function SectionHead({
 }) {
   return (
   
-    <div className={`${style} flex flex-col  gap-[24px]`}>
+    <div className={`${style} flex flex-col  gap-[12px] lg:gap-[24px]`}>
       <div
         className="w-full flex flex-col lg:flex-row justify-between lg:items-end gap-[24px
         ] "
       >
-        <div className=" flex flex-col gap-[24px]">
-          <h2 className="tracking-[10px] text-orange dark:text-yellow text-[14px] font-medium ps-0 ">
+        <div className=" flex flex-col gap-[12px] lg:gap-[24px]">
+          <h2 className="tracking-[10px] text-orange dark:text-yellow text-[14px] font-medium uppercase ps-0 ">
             {title}
           </h2>
           <span className="uppercase text-[40px]">{tagline}</span>
