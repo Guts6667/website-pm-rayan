@@ -37,7 +37,7 @@ export default async function LocaleLayout({ children, params: { locale } }) {
           media="(prefers-color-scheme: dark)"
         />
       </head>
-      <body className={`${montserrat.className} light:bg-white dark:bg-black`}>
+      <body className={`${montserrat.className} light:bg-white dark:bg-black  m-0`}>
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>
             <Cursor />

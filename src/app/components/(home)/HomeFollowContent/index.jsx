@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function HomeFollowContent() {
+export default function HomeFollowContent({style}) {
   return (
-    <div className="absolute z-10  flex flex-col items-center text-center gap-[24px] px-[48px] ">
+    <div className={`${style}  absolute z-10  flex flex-col items-center text-center gap-[24px] px-[48px] `}>
       <h2 className="tracking-[10px] text-orange dark:text-yellow text-[14px] font-medium uppercase ps-0 ">
         Follow on
       </h2>
-      <a href="" target="_blank">
+      <a href="" target="_blank" className="hover:scale-105 active:scale-95 transition-all duration-300">
         {" "}
         <svg
           width="200"
@@ -22,7 +22,7 @@ export default function HomeFollowContent() {
           />
         </svg>
       </a>
-      <a href="" target="_blank">
+      <a className="hover:scale-105 active:scale-95 transition-all duration-300" href="" target="_blank">
         <svg
           width="186"
           height="51"

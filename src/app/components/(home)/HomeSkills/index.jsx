@@ -43,7 +43,7 @@ export default function HomeSkills({t}) {
         buttonText={"Let's Talk"}
         style={"w-full"}
       />
-      <div className="w-full h-[100vh] flex flex-col lg:flex-row gap-[24px] lg:gap-[48px] xl:px-[72px] lg:items-center justify-between ">
+      <div className="w-full h-full lg:h-[100vh] flex flex-col lg:flex-row gap-[24px] lg:gap-[48px] xl:px-[72px] lg:items-center justify-between ">
         {skills.map((skill, index) => {
           const randomRotate = Math.floor(Math.random() * 15) - 10; 
           // const randomDelay = (Math.random() * 1.5) - 0.5; 
