@@ -1,30 +1,36 @@
 {
-    "Navigation": {
-        "home": "Home",
-        "about": "About",
-        "projects": "Projects",
-        "contact": "Contact",
-        "menuAction": "Menu",
-        "closeAction": "Close"
-    },
-    "HomePage": {
-        "heroText": "AN INTERNATIONAL PRODUCT MANAGER & SOFTWARE ENGINEER BASED IN PARIS",
-        "test": "This is a test",
-        "titleAbout": "ABOUT",
-        "textAbout": "I am a french  product manager & software engineer with  over 4 years of experience,  specializing at the crossroad of technical and user centric approach.  My engineering and entrepreneurial background allow me for quick and and efficient decision making.",
-        "buttonAbout": "More about me",
-        "titleProjects": "Case Studies",
-        "taglineProjects": "A peek into my work",
-        "buttonProjects": "All projects"
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "menuAction": "Menu",
+    "closeAction": "Close"
+  },
+  "Footer": {
+    "bannerTitle": "© 2021 - All rights reserved",
+    "bannerText": "Made with",
+    "bannerButton": "Contact me",
+    "buttonUrl": "/contact"
+  },
 
-    },
-    "AboutPage": {
-        "heroText": "I am a french  product manager & software engineer with  over 4 years of experience,  specializing at the crossroad of technical and user centric approach.  My engineering and entrepreneurial background allow me for quick and and efficient decision making."
-    },
-    "ContactPage": {
-        "heroText": "CONTACT ME"
-    },
-    "ProjectsPage": {
-        "heroText": "PROJECTS"
-    }
+  "HomePage": {
+    "heroText": "AN INTERNATIONAL PRODUCT MANAGER & SOFTWARE ENGINEER BASED IN PARIS",
+    "test": "This is a test",
+    "titleAbout": "ABOUT",
+    "textAbout": "I am a french  product manager & software engineer with  over 4 years of experience,  specializing at the crossroad of technical and user centric approach.  My engineering and entrepreneurial background allow me for quick and and efficient decision making.",
+    "buttonAbout": "More about me",
+    "titleProjects": "Case Studies",
+    "taglineProjects": "A peek into my work",
+    "buttonProjects": "All projects"
+  },
+  "AboutPage": {
+    "heroText": "I am a french  product manager & software engineer with  over 4 years of experience,  specializing at the crossroad of technical and user centric approach.  My engineering and entrepreneurial background allow me for quick and and efficient decision making."
+  },
+  "ContactPage": {
+    "heroText": "CONTACT ME"
+  },
+  "ProjectsPage": {
+    "heroText": "PROJECTS"
+  }
 }

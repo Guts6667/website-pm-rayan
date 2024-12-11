@@ -7,6 +7,7 @@ import { ThemeProvider } from "../../utils/themeContext";
 import Cursor from "../components/Cursor";
 import { Montserrat } from "next/font/google";
 import { routing } from "@/i18n/routing";
+import Footer from "../components/Footer";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -43,6 +44,7 @@ export default async function LocaleLayout({ children, params: { locale } }) {
             <Cursor />
             <StickyMenu />
             {children}
+            <Footer />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>

@@ -1,0 +1,14 @@
+import React from "react";
+import { useTranslations } from "next-intl";
+
+import FooterBanner from "../(footer)/FooterBanner";
+
+
+export default function Footer() {
+  const t = useTranslations("Footer");
+  return (
+   <footer>
+    <FooterBanner text={t("bannerText")} title={t("bannerTitle")} button={ t("bannerButton") }  />
+   </footer>
+  );
+}

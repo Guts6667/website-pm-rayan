@@ -7,6 +7,12 @@
     "menuAction": "Menu",
     "closeAction": "Fermer"
   },
+  "Footer": {
+    "bannerTitle": "© 2021 - Tous droits réservés",
+    "bannerText": "Créé avec",
+    "bannerButton": "Me contacter",
+    "buttonUrl": "/contact"
+  },
   "HomePage": {
     "heroText": "PRODUCT MANAGER INTERNATIONAL & INGÉNIEUR LOGICIEL BASÉ À PARIS",
     "test": "Ceci est un test",
