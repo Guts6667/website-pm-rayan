@@ -11,7 +11,12 @@
     "bannerTitle": "© 2021 - All rights reserved",
     "bannerText": "Made with",
     "bannerButton": "Contact me",
-    "buttonUrl": "/contact"
+    "buttonUrl": "/contact",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "copyright": "© 2025 - All rights reserved"
   },
 
   "HomePage": {

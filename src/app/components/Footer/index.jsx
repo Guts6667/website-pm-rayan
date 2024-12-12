@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslations } from "next-intl";
 
 import FooterBanner from "../(footer)/FooterBanner";
+import FooterNav from "../(footer)/FooterNav";
 
 
 export default function Footer() {
@@ -9,6 +10,7 @@ export default function Footer() {
   return (
    <footer>
     <FooterBanner text={t("bannerText")} title={t("bannerTitle")} button={ t("bannerButton") }  />
+    <FooterNav />
    </footer>
   );
 }

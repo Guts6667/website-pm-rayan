@@ -11,7 +11,12 @@
     "bannerTitle": "© 2021 - Tous droits réservés",
     "bannerText": "Créé avec",
     "bannerButton": "Me contacter",
-    "buttonUrl": "/contact"
+    "buttonUrl": "/contact",
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact",
+    "copyright": "© 2025 - Tous droits réservés"
   },
   "HomePage": {
     "heroText": "PRODUCT MANAGER INTERNATIONAL & INGÉNIEUR LOGICIEL BASÉ À PARIS",
