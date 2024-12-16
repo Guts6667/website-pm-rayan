@@ -8,8 +8,9 @@
     "closeAction": "Close"
   },
   "Footer": {
-    "bannerTitle": "© 2021 - All rights reserved",
-    "bannerText": "Made with",
+    "bannerTitle": "BOOK A CALL",
+    "bannerText": "WANT TO TALK ABOUT A PROJECT OR A JOB?",
+    "bannerTextSmall": "LET’S DISCUSS ABOUT YOUR PROJECT AND SEE HOW WE CAN COLLABORATE.  BOOK A CALL AND WE’LL MOVE FORWARD TOGETHER.",
     "bannerButton": "Contact me",
     "buttonUrl": "/contact",
     "home": "Home",
@@ -30,7 +31,15 @@
     "buttonProjects": "All projects"
   },
   "AboutPage": {
-    "heroText": "I am a french  product manager & software engineer with  over 4 years of experience,  specializing at the crossroad of technical and user centric approach.  My engineering and entrepreneurial background allow me for quick and and efficient decision making."
+    "heroText1": "Over 4 years of experience, bridging technical and user centric approach.",
+    "heroText2": "Eager to specialize in Health Tech, Social Impact and Sustainability.",
+    "heroText3": "An engineering and entrepreneurial background allowing for quick and and efficient decision making.",
+    "heroText4": "Passionate about problem-solving and innovation for impactful and sustainable results.",
+    "heroText5": "Thriving in creative and collaborative international environments.",
+    "titleTools": "Tools",
+    "titleSkills": "Skills",
+    "titleMethods": "Methodologies",
+    "titleTechSkills": "Technical Skills"
   },
   "ContactPage": {
     "heroText": "CONTACT ME"

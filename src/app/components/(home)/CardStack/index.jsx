@@ -24,7 +24,6 @@ export default function CardStack({ project, i }) {
           </h4>
           <div className=" flex-1 hidden lg:flex flex-wrap gap-y-[12px] justify-end items-center gap-x-[24px] opacity-0 group-hover:opacity-100 transition-all duration-300">
             {project.tags.map((item, index) => (
-            console.log(item + index),
               <div
                 key={index}
                 className="h-fit flex items-center justify-center font-semibold text-white text-[14px] px-3 py-1.5 bg-light-blurry dark:bg-dark-blurry backdrop-blur-[6px] py-[6px] px-[12px] rounded-md "
@@ -39,18 +38,3 @@ export default function CardStack({ project, i }) {
     </Link>
   );
 }
-// display: flex;
-
-// flex-direction: column;
-
-// position: relative;
-
-// height: 500px;
-
-// width: 1000px;
-
-// border-radius: 25px;
-
-// padding:50px;
-
-// transform-origin: top;

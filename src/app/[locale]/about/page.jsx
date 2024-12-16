@@ -1,14 +1,13 @@
 import AboutHero from "@/app/components/(about)/AboutHero";
+import ResumeList from "@/app/components/(about)/ResumeList";
 import React from "react";
 
 export default function About() {
 
-
-
   return (
-    
-    <main>
-      <h1>dsfsf</h1>
+    <main className="flex flex-col items-center gap-[24px] lg:gap-[48px] pt-[24px]">
+      <AboutHero />
+      <ResumeList />
     </main>
   );
 }

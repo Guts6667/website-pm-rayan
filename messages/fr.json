@@ -8,8 +8,9 @@
     "closeAction": "Fermer"
   },
   "Footer": {
-    "bannerTitle": "© 2021 - Tous droits réservés",
-    "bannerText": "Créé avec",
+    "bannerTitle": "Planifier un appel",
+    "bannerText": "Vous souhaitez discuter d'un projet ou d'une opportunité ?",
+    "bannerTextSmall": "DISCUTONS DE VOTRE PROJET ET VOYONS COMMENT NOUS POUVONS COLLABORER. PLANIFIEZ UN APPEL ET NOUS AVANCERONS ENSEMBLE.",
     "bannerButton": "Me contacter",
     "buttonUrl": "/contact",
     "home": "Accueil",
@@ -32,7 +33,15 @@
     "buttonContact": "Me contacter"
   },
   "AboutPage": {
-    "heroText": "À PROPOS DE MOI"
+    "heroText1": "Plus de 4 ans d'expérience, mêlant une approche technique et centrée sur l'utilisateur.",
+    "heroText2": "Avide de projets dans la Santé, l'Impact Social et la Durabilité ou simplement FUN.",
+    "heroText3": "Un parcours d'ingénieur et d'entrepreneur permettant une prise de décision rapide et efficace.",
+    "heroText4": "Passionné par la résolution de problèmes et l'innovation pour des résultats impactants et durables.",
+    "heroText5": "Favorise des environnements internationaux créatifs et collaboratifs.",
+    "titleTools": "Outis",
+    "titleSkills": "Compétences",
+    "titleMethods": "Methodologies",
+    "titleTechSkills": "Compétences Techniques"
   },
   "ContactPage": {
     "heroText": "ME CONTACTER"
