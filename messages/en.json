@@ -39,7 +39,26 @@
     "titleTools": "Tools",
     "titleSkills": "Skills",
     "titleMethods": "Methodologies",
-    "titleTechSkills": "Technical Skills"
+    "titleTechSkills": "Technical Skills",
+    "titleExperiences": "Experiences",
+    "experience1": {
+      "title": "Product manger / Frontend engineer",
+      "company": "Blob-Agency",
+      "date": "Sept 2022 - Present",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "experience2": {
+      "title": "Frontend engineer / Narrative designer",
+      "company": "Pixie Interactive",
+      "date": "Sept 2021 - Sept 2022",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "experience3": {
+      "title": "Frontend engineer (Volunteer)",
+      "company": "Østerland",
+      "date": "July 2021 - December 2021",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
   },
   "ContactPage": {
     "heroText": "CONTACT ME"

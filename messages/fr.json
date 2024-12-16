@@ -41,7 +41,27 @@
     "titleTools": "Outis",
     "titleSkills": "Compétences",
     "titleMethods": "Methodologies",
-    "titleTechSkills": "Compétences Techniques"
+    "titleTechSkills": "Compétences Techniques",
+
+    "titleExperiences": "Expériences",
+    "experience1": {
+      "title": "Product Manager / Ingénieur Frontend",
+      "company": "Blob-Agency",
+      "date": "Sept 2022 - Présent",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "experience2": {
+      "title": "Ingénieur Frontend / Concepteur Narratif",
+      "company": "Pixie Interactive",
+      "date": "Sept 2021 - Sept 2022",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "experience3": {
+      "title": "Ingénieur Frontend (Bénévole)",
+      "company": "Østerland",
+      "date": "Juillet 2021 - Décembre 2021",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
   },
   "ContactPage": {
     "heroText": "ME CONTACTER"

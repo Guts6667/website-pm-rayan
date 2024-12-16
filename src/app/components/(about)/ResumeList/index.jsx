@@ -1,6 +1,7 @@
 import React from "react";
 import ResumeComponent from "../ResumeComponent";
 import { useTranslations } from "next-intl";
+import ExperienceList from "../ExperienceList";
 
 export default function ResumeList() {
   const t = useTranslations("AboutPage");
@@ -54,6 +55,7 @@ export default function ResumeList() {
       <ResumeComponent title={t("titleSkills")} items={skillsList} />
       <ResumeComponent title={t("titleMethods")} items={methodsList} />
       <ResumeComponent title={t("titleTechSkills")} items={technicalSkills} />
+      <ExperienceList />
     </section>
   );
 }
