@@ -66,7 +66,11 @@
   "ContactPage": {
     "heroText": "ME CONTACTER"
   },
-  "ProjectsPage": {
-    "heroText": "PROJETS"
+  "ProjectPage": {
+    "title:": "Détails du projet",
+    "client": "Client",
+    "date": "Date",
+    "services": "Services",
+    "budget": "Budget"
   }
 }

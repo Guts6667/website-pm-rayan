@@ -1,10 +1,16 @@
-import Project from '@/app/components/(project)/Project'
-import React from 'react'
 
-export default function project() {
+import ProjectContent from "@/app/components/(project)/ProjectContent";
+import ProjectCover from "@/app/components/(project)/ProjectCover";
+
+import React from "react";
+
+
+export default function projectPage() {
+
   return (
     <main>
-        <Project />
+      <ProjectCover />
+      <ProjectContent  />
     </main>
-  )
+  );
 }
