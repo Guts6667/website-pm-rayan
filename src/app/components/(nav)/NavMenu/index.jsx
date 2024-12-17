@@ -1,11 +1,14 @@
-
-
 import React from "react";
 import { usePathname } from "next/navigation";
 import { Link } from "@/i18n/routing";
 
-export default function NavMenu({ language, isActive }) {
+export default function NavMenu({ language, isActive, handleMenu}) {
   const pathname = usePathname();
+const delayMenu = () => {
+    setTimeout(() => {
+      handleMenu();
+    }, 400);
+  };
 
   return (
     <nav
@@ -22,6 +25,7 @@ export default function NavMenu({ language, isActive }) {
                 : "opacity-100 group-hover:opacity-50"
             }`}
             href="/"
+            onClick={delayMenu}
           >
             {language === "en" ? "HOME" : "ACCUEIL"}
           </Link>
@@ -33,7 +37,8 @@ export default function NavMenu({ language, isActive }) {
                 ? "line-through decoration-2 decoration-orange dark:decoration-yellow"
                 : "opacity-100 group-hover:opacity-50"
             }`}
-            href="/about" 
+            href="/about"
+            onClick={delayMenu}
           >
             {language === "en" ? "ABOUT" : "À PROPOS"}
           </Link>
@@ -41,11 +46,12 @@ export default function NavMenu({ language, isActive }) {
         <li>
           <Link
             className={`hover:text-orange dark:hover:text-yellow transition-all duration-300 ${
-              pathname === "/projects"
+              pathname.includes("/projects")
                 ? "line-through decoration-2 decoration-orange dark:decoration-yellow"
                 : "opacity-100 group-hover:opacity-50"
             }`}
             href="/projects"
+            onClick={delayMenu}
           >
             {language === "en" ? "PROJECTS" : "PROJETS"}
           </Link>
@@ -53,11 +59,12 @@ export default function NavMenu({ language, isActive }) {
         <li>
           <Link
             className={`hover:text-orange dark:hover:text-yellow transition-all duration-300 ${
-              pathname === "/contact"
+              pathname.includes("/contact")
                 ? "line-through decoration-2 decoration-orange dark:decoration-yellow"
                 : "opacity-100 group-hover:opacity-50"
             }`}
             href="/contact"
+            onClick={delayMenu}
           >
             CONTACT
           </Link>

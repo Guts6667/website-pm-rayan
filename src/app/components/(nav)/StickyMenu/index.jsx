@@ -39,9 +39,13 @@ const StickyMenu = () => {
         >
           <span className="w-[180px] h-[6px] rounded-[12px] mix-blend-difference bg-black dark:bg-white "></span>
           {language === "en" ? (
-            <span className="text-sm font-light">{!isActive ? "Menu" : "Close"}</span>
+            <span className="text-sm font-light">
+              {!isActive ? "Menu" : "Close"}
+            </span>
           ) : (
-            <span className="text-sm font-light">{!isActive  ? "Menu" : "Fermer"}</span>
+            <span className="text-sm font-light">
+              {!isActive ? "Menu" : "Fermer"}
+            </span>
           )}
         </div>
         <div className="flex flex-1 gap-[12px] items-center">
@@ -54,7 +58,11 @@ const StickyMenu = () => {
           </Link>
         </div>
       </header>
-      <NavMenu language={language} isActive={isActive} />
+      <NavMenu
+        language={language}
+        isActive={isActive}
+        handleMenu={handleMenu}
+      />
     </>
   );
 };

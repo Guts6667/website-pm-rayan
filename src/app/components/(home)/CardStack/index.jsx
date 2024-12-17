@@ -5,7 +5,7 @@ import React from "react";
 export default function CardStack({ project, i }) {
 
   return (
-    <Link className="cardContainer sticky top-0 h-[100vh] flex items-center justify-center scroll-smooth ">
+    <Link href={"/projects"}  className="cardContainer sticky top-0 h-[100vh] flex items-center justify-center scroll-smooth ">
       <div
         style={{
         //   backgroundImage: `url(/img/${project.image})`,

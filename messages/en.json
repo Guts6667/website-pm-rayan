@@ -61,7 +61,8 @@
     }
   },
   "ContactPage": {
-    "heroText": "CONTACT ME"
+    "title": "Contact me on",
+    "phone": "Téléphone"
   },
   "ProjectPage": {
     "title:": "Project Details",
