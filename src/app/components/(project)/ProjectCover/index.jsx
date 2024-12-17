@@ -33,7 +33,7 @@ const path = usePathname();
     </section>
   ) : (
     <section className="w-full h-[100vh] flex flex-col items-center justify-center gap-[24px]">
-        <h1 className="uppercase text-[40px]">{path.includes("en")? 'Project Not Found': "Impossible de trouver le projet"} </h1>
+        <h1 className="uppercase text-[40px] text-center">{path.includes("en")? 'Project Not Found': "Impossible de trouver le projet"} </h1>
         <ButtonPrimary text={path.includes("en") ? "Go Back" : "Retour" } url={"/projects"} />
     </section>
     
