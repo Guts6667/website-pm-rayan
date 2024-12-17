@@ -13,7 +13,7 @@ export default function ProjectCard({ project }) {
 
   return (
     project && (
-      <div className=" h-fit col-span-2 bg-orange dark:bg-yellow flex flex-col py-[24px] px-[12px] gap-[24px] rounded-md !uppercase !font-medium ">
+      <div className=" h-fit col-span-2 bg-gradient-to-b from-orange to-yellow dark:bg-gradient-to-b dark:from-yellow dark:to-orange   flex flex-col py-[24px] px-[12px] gap-[24px] rounded-md !uppercase !font-medium ">
         <h2 className="text-[20px] lg:text-[24px] ">
           {switchLanguage("Project Details", "Détails du Projet")}
         </h2>

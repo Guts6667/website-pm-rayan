@@ -22,7 +22,7 @@ export default function ProjectsGallery({ locale }) {
             href={`/project`}
             key={index}
             style={{ backgroundImage: `url(/img/${project.image})` }}
-            className="bg-cover bg-center bg-no-repeat hover:scale-105 w-full h-[600px] lg:h-[700px] lg:h-auto rounded-md p-[12px] lg:p-[24px] transition-all duration-300  "
+            className="bg-cover bg-center bg-no-repeat lg:hover:scale-105 w-full h-[500px] lg:h-[700px] lg:h-auto rounded-md p-[12px] lg:p-[24px] transition-all duration-300  "
           >
             <div className="flex justify-between">
               <h4 className="text-[24px]  text-left flex-grow font-semibold text-white ">
