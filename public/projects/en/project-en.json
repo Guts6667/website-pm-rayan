@@ -15,6 +15,21 @@
     "impact": "Sciences Co approached us to help them build a platform that would make its management easier. Their previous website was built on Wordpress and was not scalable. A fresh start was needed with a modern interface and a better user experience."
   },
   {
+    "id": 7,
+    "type": "Product Agency",
+    "title": "BLOB-Agency",
+    "description": "BLOB-Agency description",
+    "image": "blob-agency.png",
+    "tags": ["Product Managemet", "UX/UI Design", "Development"],
+    "client": "Rayan Chambet",
+    "date": "2022-2024",
+    "services": ["service1", "service3"],
+    "budget": "0k",
+    "overview": "Project 6 overview",
+    "solution": "Project 6 solution",
+    "impact": "Project 6 impact"
+  },
+  {
     "id": 2,
     "type": "Mobile Application",
     "title": "Project 2",
@@ -85,6 +100,36 @@
     "date": "2020-2022",
     "services": ["service1", "service3"],
     "budget": "20k-40k",
+    "overview": "Project 6 overview",
+    "solution": "Project 6 solution",
+    "impact": "Project 6 impact"
+  },
+  {
+    "id": 8,
+    "type": "Website",
+    "title": "Mbuzz",
+    "description": "Mbuzz description",
+    "image": "Mbuzz.png",
+    "tags": ["Project Management", "Development"],
+    "client": "Mbuzz",
+    "date": "2022-2024",
+    "services": ["service1", "service3"],
+    "budget": "0k",
+    "overview": "Project 6 overview",
+    "solution": "Project 6 solution",
+    "impact": "Project 6 impact"
+  },
+  {
+    "id": 9,
+    "type": "Website",
+    "title": "Edge Dynamics",
+    "description": "Edge Dynamics description",
+    "image": "edge-dynamics.png",
+    "tags": ["Project Management", "Development"],
+    "client": "Edge Dynamics",
+    "date": "2022-2024",
+    "services": ["service1", "service3"],
+    "budget": "0k",
     "overview": "Project 6 overview",
     "solution": "Project 6 solution",
     "impact": "Project 6 impact"

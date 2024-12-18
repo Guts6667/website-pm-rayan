@@ -15,6 +15,21 @@
     "impact": "La plateforme a permis à Sciences Co d’améliorer considérablement la gestion de leurs activités tout en offrant une expérience utilisateur moderne et optimisée. Le passage à une solution évolutive a assuré une meilleure performance et une accessibilité accrue pour les utilisateurs."
   },
   {
+    "id": 7,
+    "type": "Agence Produit",
+    "title": "BLOB-Agency",
+    "description": "BLOB-Agency description",
+    "image": "blob-agency.png",
+    "tags": ["Product Managemet", "UX/UI Design", "Development"],
+    "client": "Rayan Chambet",
+    "date": "2022-2024",
+    "services": ["service1", "service3"],
+    "budget": "0k",
+    "overview": "Project 6 overview",
+    "solution": "Project 6 solution",
+    "impact": "Project 6 impact"
+  },
+  {
     "id": 2,
     "type": "Application Mobile",
     "title": "Projet 2",
@@ -88,5 +103,35 @@
     "overview": "Aperçu du projet 6",
     "solution": "Solution du projet 6",
     "impact": "Impact du projet 6"
+  },
+  {
+    "id": 8,
+    "type": "Website",
+    "title": "Mbuzz",
+    "description": "Mbuzz description",
+    "image": "Mbuzz.png",
+    "tags": ["Project Management", "Development"],
+    "client": "Mbuzz",
+    "date": "2022-2024",
+    "services": ["service1", "service3"],
+    "budget": "0k",
+    "overview": "Project 6 overview",
+    "solution": "Project 6 solution",
+    "impact": "Project 6 impact"
+  },
+  {
+    "id": 9,
+    "type": "Website",
+    "title": "Edge Dynamics",
+    "description": "Edge Dynamics description",
+    "image": "edge-dynamics.png",
+    "tags": ["Project Management", "Development"],
+    "client": "Edge Dynamics",
+    "date": "2022-2024",
+    "services": ["service1", "service3"],
+    "budget": "0k",
+    "overview": "Project 6 overview",
+    "solution": "Project 6 solution",
+    "impact": "Project 6 impact"
   }
 ]
