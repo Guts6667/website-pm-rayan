@@ -6,7 +6,6 @@ import HomeAbout from "../components/(home)/HomeAbout";
 import HomeProjects from "../components/(home)/HomeProjects";
 import HomeSkills from "../components/(home)/HomeSkills";
 import HomeFollow from "../components/(home)/HomeFollow";
-import SectionHead from "../components/(home)/SectionHead";
 
 export default function Home({ params }) {
   const { locale } = use(params);

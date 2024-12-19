@@ -26,6 +26,10 @@ export default async function LocaleLayout({ children, params: { locale } }) {
   return (
     <html lang={locale}>
       <head>
+        <meta
+          name="description"
+          content="Site web de Rayan Chambet, Technical Product Manager à Paris. Passionné par la résolution de problèmes et l'innovation pour des résultats impactants et durables."
+        />
         <meta name="color-scheme" content="light dark" />
         <meta
           name="theme-color"
@@ -38,7 +42,9 @@ export default async function LocaleLayout({ children, params: { locale } }) {
           media="(prefers-color-scheme: dark)"
         />
       </head>
-      <body className={`${montserrat.className} light:bg-white dark:bg-black  m-0`}>
+      <body
+        className={`${montserrat.className} light:bg-white dark:bg-black  m-0`}
+      >
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>
             <Cursor />
