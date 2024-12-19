@@ -42,7 +42,7 @@ export default function ProjectCard({ project }) {
         </div>
         <div className="flex justify-between pt-[12px] border-t-[0.5px] border-black dark:border-white text-[12px] lg:text-[14px]">
           <h3>Budget</h3>
-          <p>{project.budget}</p>
+          <p>{project.budget}€</p>
         </div>
       </div>
     )

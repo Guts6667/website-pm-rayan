@@ -30,7 +30,10 @@
     "buttonProjects": "Tous les projets",
     "titleContact": "CONTACT",
     "textContact": "Vous avez une question ou vous souhaitez simplement discuter ? N'hésitez pas à me contacter.",
-    "buttonContact": "Me contacter"
+    "buttonContact": "Me contacter",
+    "titleSkills": "Compétences", 
+    "taglineSkills": "Des compétences adaptées à vos besoins ",
+    "buttonSkills": "Me contacter"
   },
   "AboutPage": {
     "heroText1": "Plus de 4 ans d'expérience, mêlant une approche technique et centrée sur l'utilisateur.",

@@ -14,7 +14,7 @@ export default function SkillCard({ title, skills, number, rotation, delay }) {
 
   return (
     <div
-      className={`flex flex-col w-full lg:flex-1 gap-[12px] lg:gap-[24px] p-[24px] bg-[#361601]/10 dark:bg-[#1B1915] rounded-[12px] sm:rotate-0 lg:animate-floating  hover:animate-scaleCard`}
+      className={` col-span-1 flex flex-col w-full gap-[12px] lg:gap-[24px] p-[24px] bg-[#361601]/10 dark:bg-[#1B1915] rounded-[12px] sm:rotate-0 lg:animate-floating  hover:animate-scaleCard`}
       style={{
         "--rotate": isLargeScreen ? `${rotation}deg` : "0deg",
         transform: `translateY(0) rotate(var(--rotate))`,

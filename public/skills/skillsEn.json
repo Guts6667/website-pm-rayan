@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Strategy",
+    "skills": [
+      "Market Analysis",
+      "Digital Strategy Development",
+      "Project Management",
+      "Budget Management",
+      "Performance Monitoring"
+    ]
+  },
+  {
+    "title": "Design",
+    "skills": ["UI/UX", "Wireframing", "Prototyping", "Mockups"]
+  },
+  {
+    "title": "Development",
+    "skills": [
+      "Frontend",
+      "Requirement Specification",
+      "Backlog Management",
+      "Agile Workflow Management",
+      "Quality Assurance"
+    ]
+  },
+  {
+    "title": "Delivery",
+    "skills": [
+      "Stakeholder Communication",
+      "Backlog Management",
+      "Sprint Planning",
+      "Post-Launch Analysis",
+      "Continuous Improvement"
+    ]
+  }
+]

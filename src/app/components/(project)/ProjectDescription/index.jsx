@@ -14,20 +14,28 @@ export default function ProjectDescription({ project }) {
   return (
     project && (
       <div className="col-span-4 flex flex-col gap-[12px] ">
-        <div className="flex flex-col gap-[12px] px-[10px] py-[24px]">
-          <h2 className="text-[32px] font-medium ">
-            {switchLanguage("Overview", "Contexte")}
-          </h2>
-          <p>{project.overview}</p>
-        </div>
-        <div className="flex flex-col gap-[12px] px-[10px] py-[24px]">
-          <h2 className="text-[32px] font-medium ">Solution</h2>
-          <p>{project.solution}</p>
-        </div>
-        <div className="flex flex-col gap-[12px] px-[10px] py-[24px]">
-          <h2 className="text-[32px] font-medium ">Impact</h2>
-          <p>{project.impact}</p>
-        </div>
+        {project.overview && (
+          <div className="flex flex-col gap-[12px] px-[10px] py-[24px]">
+            <h2 className="text-[32px] font-medium ">
+              {switchLanguage("Overview", "Contexte")}
+            </h2>
+            <p>{project.overview}</p>
+          </div>
+        )}
+
+        {project.solution && (
+          <div className="flex flex-col gap-[12px] px-[10px] py-[24px]">
+            <h2 className="text-[32px] font-medium ">Solution</h2>
+            <p>{project.solution}</p>
+          </div>
+        )}
+
+        {project.impact && (
+          <div className="flex flex-col gap-[12px] px-[10px] py-[24px]">
+            <h2 className="text-[32px] font-medium ">Impact</h2>
+            <p>{project.impact}</p>
+          </div>
+        )}
       </div>
     )
   );

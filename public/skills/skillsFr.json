@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Stratégie",
+    "skills": [
+      "Analyse de marché",
+      "Développement de stratégie numérique",
+      "Gestion de projet",
+      "Gestion de budget",
+      "Surveillance des performances"
+    ]
+  },
+  {
+    "title": "Design",
+    "skills": ["UI/UX", "Wireframing", "Prototypage", "Maquettes"]
+  },
+  {
+    "title": "Développement",
+    "skills": [
+      "Frontend",
+      "Spécification des besoins",
+      "Gestion du backlog",
+      "Gestion du flux de travail Agile",
+      "Assurance qualité"
+    ]
+  },
+  {
+    "title": "Livraison",
+    "skills": [
+      "Communication avec les parties prenantes",
+      "Gestion du backlog",
+      "Planification des sprints",
+      "Analyse post-lancement",
+      "Amélioration continue"
+    ]
+  }
+]
