@@ -33,7 +33,9 @@
     "buttonContact": "Me contacter",
     "titleSkills": "Compétences", 
     "taglineSkills": "Des compétences adaptées à vos besoins ",
-    "buttonSkills": "Me contacter"
+    "buttonSkills": "Me contacter",
+    "followMe": "Suivez moi sur",
+    "followMeText": "JE PARTAGE DE MON TRAVAIL ET DE MES IDÉES SUR MES RÉSEAUX, TOUJOURS OUVERT À VOS DEMANDES."
   },
   "AboutPage": {
     "heroText1": "Plus de 4 ans d'expérience, mêlant une approche technique et centrée sur l'utilisateur.",

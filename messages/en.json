@@ -29,9 +29,11 @@
     "titleProjects": "Case Studies",
     "taglineProjects": "A peek into my work",
     "buttonProjects": "All projects",
-    "titleSkills": "Sets of Skills", 
+    "titleSkills": "Sets of Skills",
     "taglineSkills": "Skills tailored to you needs",
-    "buttonSkills": "Let's talk"
+    "buttonSkills": "Let's talk",
+    "followMe": "Follow me on",
+    "followMeText": "SHARING MY WORK AND IDEAS ON MY SOCIAL, ALWAYS OPEN FOR ANY INQUIRY"
   },
   "AboutPage": {
     "heroText1": "Over 4 years of experience, bridging technical and user centric approach.",

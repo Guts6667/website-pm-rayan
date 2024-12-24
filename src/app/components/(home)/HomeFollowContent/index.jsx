@@ -1,14 +1,18 @@
-
 import React from "react";
 
-export default function HomeFollowContent({style}) {
-
+export default function HomeFollowContent({ t }) {
   return (
-    <div className={`${style}  absolute z-10  flex flex-col items-center text-center gap-[24px] px-[48px] `}>
+    <div
+      className={`  absolute z-10  flex flex-col items-center text-center gap-[24px] px-[48px] `}
+    >
       <h2 className="tracking-[10px] text-orange dark:text-yellow text-[14px] font-medium uppercase ps-0 ">
-        Follow on
+        {t("followMe")}
       </h2>
-      <a href="" target="_blank" className="hover:scale-105 active:scale-95 transition-all duration-300">
+      <a
+        href=""
+        target="_blank"
+        className="hover:scale-105 active:scale-95 transition-all duration-300"
+      >
         {" "}
         <svg
           width="200"
@@ -24,7 +28,11 @@ export default function HomeFollowContent({style}) {
           />
         </svg>
       </a>
-      <a className="hover:scale-105 active:scale-95 transition-all duration-300" href="" target="_blank">
+      <a
+        className="hover:scale-105 active:scale-95 transition-all duration-300"
+        href=""
+        target="_blank"
+      >
         <svg
           width="186"
           height="51"
@@ -39,9 +47,7 @@ export default function HomeFollowContent({style}) {
           />
         </svg>
       </a>
-      <p className="uppercase">
-        SHARING MY WORK AND IDEAS ON MY SOCIAL, ALWAYS OPEN FOR ANY INQUIRY
-      </p>
+      <p className="uppercase">{t("followMeText")}</p>
       <span className="w-full h-[0.5px] bg-black dark:bg-white rounded-full"></span>
     </div>
   );
