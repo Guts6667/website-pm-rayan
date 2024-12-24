@@ -14,7 +14,7 @@ const delayMenu = () => {
     <nav
       className={`${
         isActive ? "animate-slideDown" : "animate-slideUp hidden "
-      } fixed z-[60] bg-white-transparent dark:bg-black-transparent w-full flex flex-col h-[65vh] lg:h-[40vh]  py-[96px] px-[24px] lg:px-[48px] gap-[6px] lg:gap-[12px] items-center justify-center text-[36px] lg:text-[48px] text-center dark:text-secondary backdrop-blur-md rounded-md`}
+      } fixed z-[60] bg-white-transparent dark:bg-black-transparent w-full flex flex-col h-[65vh] lg:h-[50vh]  py-[96px] px-[24px] lg:px-[48px] gap-[6px] lg:gap-[12px] items-center justify-center text-[36px] lg:text-[48px] text-center dark:text-secondary backdrop-blur-md rounded-md`}
     >
       <ul className="flex flex-col gap-4 group">
         <li>
