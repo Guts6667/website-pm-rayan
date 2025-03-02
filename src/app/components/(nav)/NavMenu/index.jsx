@@ -2,9 +2,9 @@ import React from "react";
 import { usePathname } from "next/navigation";
 import { Link } from "@/i18n/routing";
 
-export default function NavMenu({ language, isActive, handleMenu}) {
+export default function NavMenu({ language, isActive, handleMenu }) {
   const pathname = usePathname();
-const delayMenu = () => {
+  const delayMenu = () => {
     setTimeout(() => {
       handleMenu();
     }, 400);
@@ -54,6 +54,19 @@ const delayMenu = () => {
             onClick={delayMenu}
           >
             {language === "en" ? "PROJECTS" : "PROJETS"}
+          </Link>
+        </li>
+        <li>
+          <Link
+            className={`hover:text-orange dark:hover:text-yellow transition-all duration-300 ${
+              pathname.includes("/blog")
+                ? "line-through decoration-2 decoration-orange dark:decoration-yellow"
+                : "opacity-100 group-hover:opacity-50"
+            }`}
+            href="/blog"
+            onClick={delayMenu}
+          >
+            BLOG
           </Link>
         </li>
         <li>

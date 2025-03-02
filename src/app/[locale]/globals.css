@@ -26,12 +26,18 @@ body, * {
 }
 
 p {
-  font-size: 12px;
+  font-size: 14px;
   @media (min-width: 768px) {
     font-size: 16px;
   }
 }
-
+.prose {
+  color: inherit;
+  font-size: inherit;
+}
+.blog-post {
+ font-size: 24px !important;
+}
 .custom-cursor {
   position: fixed;
   top: 50%;

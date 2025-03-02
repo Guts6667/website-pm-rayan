@@ -1,3 +1,5 @@
+const css = require("styled-jsx/css");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -10,6 +12,16 @@ module.exports = {
 
   theme: {
     extend: {
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            fontSize: "20px",
+            p: {
+              fontSize: "20px",
+            },
+          },
+        },
+      }),
       colors: {
         light: {
           background: "#FCF6E6",
@@ -118,12 +130,12 @@ module.exports = {
           "50%": { transform: "translateY(-10px) rotate(var(--rotate))" },
           "100%": { transform: "translateY(0) rotate(var(--rotate))" },
         },
-        scaleCard :{
+        scaleCard: {
           "0%": { transform: "scale(1)" },
           "100%": { transform: "scale(1.05)" },
-        }
+        },
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
